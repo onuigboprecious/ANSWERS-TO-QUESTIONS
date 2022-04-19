@@ -36,7 +36,7 @@ b - Embed CSS with a style tag: A set of CSS styles included within your HTML pa
 Add your CSS rules between the opening and closing style tags and write your CSS exactly the same way as you do in stand-alone stylesheet files.
 
 c - Add inline styles to HTML elements(CSS rules applied directly within an HTML tag.): Style can be added directly to the HTML element using a style tag.
-<h2 style="color:red;background:black">Inline Style</h2>
+<h2 style="color:red; background:black">Inline Style</h2>
 
 d - Import a stylesheet file (An external file imported into another CSS file): Another way to add CSS is by using the @import rule. This is to add a new CSS file within CSS itself.
 @import "path/to/style.css";
