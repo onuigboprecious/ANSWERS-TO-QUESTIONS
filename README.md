@@ -353,15 +353,10 @@ f. align-content: This is used for aligning the flex lines
 Cascading” refers to the process of going through the style declarations and defining weight or importance to the styling rules that help the browser to select what rules have to be applied in times of conflict.  This is done by using the "!important" word along side it's value. !important ensures that the property has the maximum weight in presence of other conflicting properties.
  
   #ANSWER TO NO-24
-a. Absolute: To place an element exactly where you want to place it. absolute position is actually set relative to the element's parent. if no parent is available then    the relative place to the page itself (it will default all the way back up to the element).
-  
-b. Relative: "Relative to itself". Setting position: relative; on an element and no other positioning attributes, it will no effect on its positioning. It allows the      use of z-index on the element and it limits the scope of absolutely positioned child elements. Any child element will be absolutely positioned within that block.
-  
-c. Fixed: The element is positioned relative to the viewport or the browser window itself. viewport doesn't change if you scroll and hence the fixed element will stay    right in the same position. 
-  
-d. Static: Static default for every single page element. The only reason you would ever set an element to position: static is to forcefully remove some positioning        that got applied to an element outside of your control.
-  
-e. Sticky: Sticky positioning is a hybrid of relative and fixed positioning. The element is treated as relative positioned until it crosses a specified threshold, at      which point it is treated as fixed positioned
+   all	        Default. Used for all media type devices
+   print	Used for printers
+   screen	Used for computer screens, tablets, smart-phones etc.
+   speech	Used for screenreaders that "reads" the page out loud
   
 #ANSWER TO NO-25
 Reflow occurs when:
